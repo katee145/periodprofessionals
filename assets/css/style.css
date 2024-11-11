@@ -127,6 +127,38 @@ h3 {
     background-color: var(--dark-red);
 }
 
+.card-custom {
+    background-color: var(--beige);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card-custon, h5 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: var(--navy);
+    padding-bottom: 5px;
+}
+
+.card-custon, p {
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    color: var(--navy);
+    text-align: left;
+}
+
+.btn-custom {
+    color: var(--navy);
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+.btn-custom:hover {
+    color: var(--beige);
+    background-color: var(--navy);
+    border-color: var(--navy);
+}
+
 #contact {
     background-color: var(--light-blue);
 }
