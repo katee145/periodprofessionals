@@ -56,7 +56,7 @@ h3 {
 
 
 #header {
-    background-image: url(https://i.postimg.cc/vmf6ZNpF/tile-hero-webp.webp);
+    background-image: url(https://i.postimg.cc/Xq98y6Qw/tile-header.webp);
     background-color: var(--dark-red);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,12 +66,12 @@ h3 {
 
 #header h1 {
     font-family: var(--primary-font);
-    font-size: 5rem;
+    font-size: 80px;
 }
 
 #header h2 {
     font-family: var(--secondary-font);
-    font-size: 2rem;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
