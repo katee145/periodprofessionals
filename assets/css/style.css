@@ -15,10 +15,14 @@
 /* General styles */
 h1 {
     font-family: var(--primary-font);
+    text-transform: lowercase;
+    padding-bottom: 20px;
 }
 
 h2 {
     font-family: var(--secondary-font);
+    font-weight: 300;
+    letter-spacing: 0.5rem;
 }
 
 h3 {
@@ -84,7 +88,7 @@ body {
 
 #header h2 {
     font-family: var(--secondary-font);
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
@@ -203,10 +207,22 @@ body {
 
 #contact {
     background-color: var(--light-blue);
+    font-family: var(--secondary-font);
+    color: var(--navy);
 }
 
 #form-custom {
     max-width: 400px;
+}
+
+#contact h4 {
+    color: var(--navy);
+    font-family: var(--primary-font);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    text-transform: lowercase;
 }
 
 #footer {
