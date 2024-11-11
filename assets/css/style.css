@@ -12,6 +12,19 @@
     --peach: #fad4ba; /*peach*/
 }
 
+/* General styles */
+h1 {
+    font-family: var(--primary-font);
+}
+
+h2 {
+    font-family: var(--secondary-font);
+}
+
+h3 {
+    font-family: var(--primary-font);
+}
+
 .navbar-custom {
     background-color: var(--beige);
 }
@@ -39,4 +52,65 @@
     font-family: var(--secondary-font);
     color: var(--dark-red);
     font-size: 1rem;
+}
+
+
+#header {
+    background-image: url(https://i.postimg.cc/vmf6ZNpF/tile-hero-webp.webp);
+    background-color: var(--dark-red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: var(--beige);
+}
+
+#header h1 {
+    font-family: var(--primary-font);
+    font-size: 5rem;
+}
+
+#header h2 {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#menstrual-equity {
+    background-color: var(--beige);
+}
+
+#menstrual-equity h3 {
+    color: var(--navy);
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: lowercase;
+}
+#menstrual-equity p {
+    color: var(--navy);
+    font-size: 30px;
+}
+
+#menstrual-equity img {
+    border-radius: 10px;
+}
+
+#impact-employees {
+    background-color: var(--light-blue);
+}
+
+#employer-tips {
+    background-color: var(--dark-red);
+}
+
+#employee-tips {
+    background-color: var(--dark-red);
+}
+
+#contact {
+    background-color: var(--light-blue);
+}
+
+#footer {
+    background-color: var(--beige);
 }
