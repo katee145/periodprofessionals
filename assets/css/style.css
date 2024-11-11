@@ -88,16 +88,36 @@ h3 {
 }
 #menstrual-equity p {
     color: var(--navy);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menstrual-equity img {
     border-radius: 10px;
 }
 
+/*Impact employees*/
+
 #impact-employees {
     background-color: var(--light-blue);
 }
+
+#impact-employees h3 {
+    color: var(--navy);
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: lowercase;
+}
+#impact-employees p {
+    color: var(--navy);
+    font-size: 25px;
+}
+
+#impact-employees img {
+    border-radius: 10px;
+}
+
+
 
 #employer-tips {
     background-color: var(--dark-red);
