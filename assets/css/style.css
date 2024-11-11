@@ -225,6 +225,19 @@ body {
     text-transform: lowercase;
 }
 
+.btn-custom-2 {
+    color: var(--navy);
+    background-color: var(--beige);
+    border-color: var(--navy);
+    font-family: var(--secondary-font);
+}
+
+.btn-custom-2:hover {
+    color: var(--beige);
+    background-color: var(--navy);
+    border-color: var(--navy);
+}
+
 #footer {
     background-color: var(--light-blue);
     height: 80px;
