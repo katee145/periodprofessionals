@@ -24,17 +24,3 @@ p {
     --light-blue: #7bb7e0; /*light blue*/
     --peach: #fad4ba; /*peach*/
 }
-
-h1 {
-    color: var(--red);
-    font-family: var(--primary-font);
-}
-
-p {
-    font-family: var(--secondary-font);
-    color: var(--navy);
-}
-
-body {
-    background-color: var(--beige);
-}
