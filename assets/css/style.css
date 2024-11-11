@@ -37,6 +37,10 @@ body {
     color: var(--dark-red);
 }
 
+.nav-item > .active {
+    color: var(--dark-red);
+}
+
 /*navbar {
     color: var(--dark-red);
     font-family: var(--secondary-font);
@@ -56,6 +60,11 @@ body {
     font-family: var(--secondary-font);
     color: var(--dark-red);
     font-size: 1rem;
+}
+
+.toggler-custom {
+    color: var(--dark-red);
+    border: var(--dark-red);
 }
 
 
