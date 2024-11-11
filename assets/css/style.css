@@ -16,6 +16,10 @@
     background-color: var(--beige);
 }
 
+.navbar-toggler-icon {
+    color: var(--dark-red);
+}
+
 /*navbar {
     color: var(--dark-red);
     font-family: var(--secondary-font);
