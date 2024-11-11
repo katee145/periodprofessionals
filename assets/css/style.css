@@ -186,4 +186,5 @@ body {
 
 #footer {
     background-color: var(--beige);
+    height: 80px;
 }
