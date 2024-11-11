@@ -25,6 +25,10 @@ h3 {
     font-family: var(--primary-font);
 }
 
+body {
+    background-color: var(--dark-red);
+}
+
 .navbar-custom {
     background-color: var(--beige);
 }
@@ -117,6 +121,9 @@ h3 {
     border-radius: 10px;
 }
 
+#implement {
+    background-color: var(--beige);
+}
 
 
 #employer-tips {
@@ -158,6 +165,20 @@ h3 {
     background-color: var(--navy);
     border-color: var(--navy);
 }
+
+#testimonials {
+    background-color: var(--beige);
+}
+
+#carousel-item {
+    padding: 100px;
+}
+
+/* #carousel-item > img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px
+} */
 
 #contact {
     background-color: var(--light-blue);
