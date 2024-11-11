@@ -238,7 +238,20 @@ body {
     border-color: var(--navy);
 }
 
-#footer {
-    background-color: var(--light-blue);
-    height: 80px;
+
+/* Footer */
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: var(--navy);
+    margin-bottom: 0;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: var(--beige);
 }
