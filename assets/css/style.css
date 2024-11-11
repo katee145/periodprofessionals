@@ -69,7 +69,7 @@ body {
 
 
 #header {
-    background-image: url(https://i.postimg.cc/Xq98y6Qw/tile-header.webp);
+    /*background-image: url(https://i.postimg.cc/Xq98y6Qw/tile-header.webp);*/
     background-color: var(--dark-red);
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,13 +130,24 @@ body {
     border-radius: 10px;
 }
 
-#implement {
-    background-color: var(--beige);
-}
-
-
 #employer-tips {
     background-color: var(--dark-red);
+}
+
+#employer-tips h3 {
+    color: var(--beige);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: lowercase;
+}
+
+#employee-tips h3 {
+    color: var(--beige);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: lowercase;
 }
 
 #employee-tips {
@@ -167,6 +178,7 @@ body {
     color: var(--navy);
     background-color: var(--light-blue);
     border-color: var(--light-blue);
+    font-family: var(--secondary-font);
 }
 
 .btn-custom:hover {
@@ -193,7 +205,11 @@ body {
     background-color: var(--light-blue);
 }
 
+#form-custom {
+    max-width: 400px;
+}
+
 #footer {
-    background-color: var(--beige);
+    background-color: var(--light-blue);
     height: 80px;
 }

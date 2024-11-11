@@ -22,7 +22,7 @@
 
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg sticky-top navbar-custom justify-content-center">
-        <div id="navbar" class="container-fluid">
+        <div id="navbar" class="container-fluid px-3">
             <a class="navbar-brand" href="index.html"><img src="assets/images/period-professionals-logo.png"
                     alt="Period Professionals logo"></a>
             <button class="navbar-toggler toggler-custom" type="button" data-bs-toggle="collapse"
@@ -111,10 +111,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section id="implement">
-            <h3>How can I implement menstrual equity at work?</h3>
         </section>
 
         <section id="employer-tips">
@@ -272,25 +268,28 @@
 
         <section id="contact" <div class="container section">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-8 form-custom my-5">
                     <h2>Booking inquiry</h2>
-                    <form action="#" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                            </div>
+                    <form class="row g-3">
+                        <div class="col-lg-4">
+                            <label for="full-name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="full-name">
                         </div>
-
-                        <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                        <div class="col-lg-4">
+                            <label for="phonenumber" class="form-label">Phone number</label>
+                            <input type="number" class="form-control" id="phonenumber">
+                        </div>
+                        <div class="col-lg-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-custom general-button">Send</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -298,9 +297,18 @@
         </section>
 
     </main>
-    <footer id="footer" class="mt-auto">
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum</p>
+
+    <footer id="footer">
+        <div class="container-fluid align-self-center px-4 py-3">
+            <div class="row">
+                <p><strong>Email:</strong> period@professionals.com</p>
+                <p>Instagram Facebook Twitter</p>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
     </footer>
 
     <!-- Font Awesome kit -->
