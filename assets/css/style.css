@@ -233,6 +233,13 @@ p {
     padding: 50px 0;
 }
 
+#testimonials h3 {
+    color: var(--dark-red);
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: lowercase;
+}
+
 #testimonial-carousel .carousel-inner {
     border-radius: 10px;
     box-shadow: none;
@@ -241,7 +248,7 @@ p {
 
 .testimonial-content {
     text-align: center;
-    padding: 40px 100px; /* Adjust the horizontal padding as needed */
+    padding: 40px 120px; /* Adjust the horizontal padding as needed */
 }
 
 .testimonial-avatar {
@@ -283,6 +290,8 @@ p {
 .carousel-control-next-icon {
     color: #c1121f;
 }
+
+
 
 /* #carousel-item > img {
     max-width: 100px;
