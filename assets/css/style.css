@@ -40,12 +40,7 @@ p {
     font-size: 1.6rem;
 }
 
-
-
-/* body {
-    background-color: var(--dark-red);
-} */
-
+/*Navbar*/
 .navbar-custom {
     background-color: var(--beige);
 }
@@ -57,21 +52,6 @@ p {
 .nav-item>.active {
     color: var(--dark-red);
 }
-
-/* nav {
-    width: 103%;
-} */
-
-/*navbar {
-    color: var(--dark-red);
-    font-family: var(--secondary-font);
-}
-
-/* .navbar-brand {
-    font-family: var(--primary-font);
-    color: var(--dark-red);
-    font-size: 1.5rem;
-} */
 
 .nav-item,
 .nav-link,
@@ -88,7 +68,7 @@ p {
     border: var(--dark-red);
 }
 
-
+/*Header*/
 #header {
     /*background-image: url(https://i.postimg.cc/Xq98y6Qw/tile-header.webp);*/
     background-image: url(https://i.postimg.cc/zGpCDRhS/dark-period-hero.png);
@@ -121,22 +101,17 @@ p {
     text-transform: uppercase;
 }
 
+/*Menstrual equity*/
 #menstrual-equity {
     background-color: var(--beige);
 }
 
 #menstrual-equity h3 {
     color: var(--navy);
-    /*font-size: 60px;*/
     text-align: center;
     padding-bottom: 50px;
     text-transform: lowercase;
 }
-
-/* #menstrual-equity p {
-    color: var(--navy);
-    font-size: 25px;
-} */
 
 #menstrual-equity img {
     border-radius: 10px;
@@ -150,38 +125,33 @@ p {
 
 #impact-employees h3 {
     color: var(--navy);
-    /*font-size: 60px;*/
     text-align: center;
     padding-bottom: 50px;
     text-transform: lowercase;
+    padding-top: 15px;
 }
-
-/* #impact-employees p {
-    color: var(--navy);
-    font-size: 25px;
-} */
 
 #impact-employees img {
     border-radius: 10px;
 }
 
+
+/*Employer and employee tips*/
 #employer-tips {
     background-color: var(--dark-red);
 }
 
 #employer-tips h3 {
     color: var(--beige);
-    /*font-size: 60px;*/
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
     text-transform: lowercase;
 }
 
 #employee-tips h3 {
     color: var(--beige);
-    /*font-size: 60px;*/
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
     text-transform: lowercase;
 }
 
@@ -225,11 +195,9 @@ p {
     border: none;
 }
 
+/*Testimonials*/
 #testimonials {
     background-color: var(--beige);
-}
-
-#testimonials {
     padding: 50px 0;
 }
 
@@ -243,19 +211,21 @@ p {
 #testimonial-carousel .carousel-inner {
     border-radius: 10px;
     box-shadow: none;
-    padding-bottom: 50px; /* Add padding to the bottom of the carousel */
+    padding-bottom: 50px;
 }
 
 .testimonial-content {
     text-align: center;
-    padding: 40px 120px; /* Adjust the horizontal padding as needed */
+    padding: 40px 120px;
 }
 
 .testimonial-avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     margin-bottom: 20px;
+    object-fit: cover;
+    min-height: 50px;
 }
 
 .testimonial-text {
@@ -291,14 +261,12 @@ p {
     color: #c1121f;
 }
 
+#testimonial-image {
+    max-width: 50px;
+    border-radius: 50px;
+}
 
-
-/* #carousel-item > img {
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 50px
-} */
-
+/*Contact*/
 #contact {
     background-color: var(--light-blue);
     font-family: var(--secondary-font);
@@ -331,12 +299,6 @@ p {
     background-color: var(--navy);
 
 }
-
-#testimonial-image {
-    max-width: 50px;
-    border-radius: 50px;
-}
-
 
 /* Footer */
 #social-media {
@@ -382,6 +344,10 @@ p {
         font-size: 3rem;
     }
 
+    #testimonials h3 {
+        font-size: 3rem;
+    }
+
     h4 {
         font-size: 2.2rem;
     }
@@ -395,8 +361,6 @@ p {
         max-width: 80%;
     }
 }
-
-
 
 @media (max-width: 1200px) {
     p {
@@ -416,6 +380,10 @@ p {
     }
 
     h3 {
+        font-size: 2.75rem;
+    }
+
+    #testimonials h3 {
         font-size: 2.75rem;
     }
 
@@ -466,6 +434,10 @@ p {
         font-size: 2.5rem;
     }
 
+    #testimonials h3 {
+        font-size: 2.5rem;
+    }
+
     #contact h4 {
         font-size: 1.7rem;
     }
@@ -512,6 +484,10 @@ p {
     }
 
     #employee-tips h3 {
+        font-size: 1.675rem;
+    }
+
+    #testimonials h3 {
         font-size: 1.675rem;
     }
 
