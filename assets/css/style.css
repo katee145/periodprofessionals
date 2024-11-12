@@ -71,7 +71,8 @@ p {
 /*Header*/
 #header {
     /*background-image: url(https://i.postimg.cc/Xq98y6Qw/tile-header.webp);*/
-    background-image: url(https://i.postimg.cc/zGpCDRhS/dark-period-hero.png);
+    /*background-image: url(https://i.postimg.cc/zGpCDRhS/dark-period-hero.png);*/
+    background-image: url(https://i.postimg.cc/DwXg4CKc/dark-hero-image.png);
     background-color: var(--dark-red);
     background-repeat: no-repeat;
     background-size: cover;
