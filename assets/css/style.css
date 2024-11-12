@@ -40,6 +40,10 @@ p {
     font-size: 1.6rem;
 }
 
+body {
+    background-color: var(--dark-red);
+}
+
 /*Navbar*/
 .navbar-custom {
     background-color: var(--beige);
