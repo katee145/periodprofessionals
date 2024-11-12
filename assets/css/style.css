@@ -29,6 +29,13 @@ h3 {
     font-family: var(--primary-font);
 }
 
+p {
+    font-family: var(--secondary-font);
+    font-size: 25px;
+}
+
+
+
 /* body {
     background-color: var(--dark-red);
 } */
@@ -118,10 +125,10 @@ h3 {
     padding-bottom: 50px;
     text-transform: lowercase;
 }
-#menstrual-equity p {
+/* #menstrual-equity p {
     color: var(--navy);
     font-size: 25px;
-}
+} */
 
 #menstrual-equity img {
     border-radius: 10px;
@@ -140,10 +147,10 @@ h3 {
     padding-bottom: 50px;
     text-transform: lowercase;
 }
-#impact-employees p {
+/* #impact-employees p {
     color: var(--navy);
     font-size: 25px;
-}
+} */
 
 #impact-employees img {
     border-radius: 10px;
@@ -272,6 +279,10 @@ h3 {
 }
 
 @media (max-width: 1200px) {
+    p {
+        font-size: 1.25rem;
+    }
+    
     #header {
         height: 400px;
     }
@@ -297,6 +308,10 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    p {
+        font-size: 1.125rem;
+    }
+    
     #header {
         height: 300px;
     }
@@ -335,6 +350,11 @@ h3 {
 }
 
 @media (max-width: 480px) {
+    
+    p {
+        font-size: 1rem;
+    }
+    
     #header {
         height: 200px;
     }
