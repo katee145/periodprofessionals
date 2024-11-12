@@ -402,6 +402,235 @@ p {
     }
 }
 
+@media (max-width: 990px) {
+    #hidden-image {
+      display: none;
+    }
+  }
+
+@media (max-width: 768px) {
+    p {
+        font-size: 1.125rem;
+    }
+
+    #header {
+        height: 300px;
+    }
+
+    #header h1 {
+        font-size: 2.5rem;
+    }
+
+    #header h2 {
+        font-size: 1.6rem;
+    }
+
+    #menstrual-equity h3 {
+        font-size: 2.5rem;
+    }
+
+    #impact-employees h3 {
+        font-size: 2.5rem;
+    }
+
+    #employer-tips h3 {
+        font-size: 2.5rem;
+    }
+
+    #employer-tips h3 {
+        font-size: 2.5rem;
+    }
+
+    #testimonials h3 {
+        font-size: 2.5rem;
+    }
+
+    #contact h4 {
+        font-size: 1.7rem;
+    }
+
+    .card-custom {
+        max-width: 400px;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 70%;
+    }
+
+    #menstrual-equity p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #menstrual-equity img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    p {
+        font-size: 1rem;
+    }
+
+    #header {
+        height: 200px;
+    }
+
+    #header h1 {
+        font-size: 1.875rem;
+    }
+
+    #header h2 {
+        font-size: 1.25rem;
+    }
+
+    #menstrual-equity h3 {
+        font-size: 1.675rem;
+    }
+
+    #impact-employees h3 {
+        font-size: 1.675rem;
+    }
+
+    #employer-tips h3 {
+        font-size: 1.675rem;
+    }
+
+    #employee-tips h3 {
+        font-size: 1.675rem;
+    }
+
+    #testimonials h3 {
+        font-size: 1.675rem;
+    }
+
+    #contact h4 {
+        font-size: 1.3rem;
+    }
+
+    .card-custom {
+        max-width: 300px;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 60%;
+    }
+
+    #menstrual-equity p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #menstrual-equity img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/*@media (min-width: 1200px) {
+    p {
+        font-size: 1.6rem;
+    }
+
+    #header {
+        height: 500px;
+    }
+
+    #header h1 {
+        font-size: 6.25rem;
+    }
+
+    #header h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    #testimonials h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2.2rem;
+    }
+
+    .card-custom {
+        max-width: 500px;
+        font-size: 15px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 1.6rem;
+    }
+
+    #header {
+        height: 400px;
+    }
+
+    #header h1 {
+        font-size: 4rem;
+    }
+
+    #header h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2.75rem;
+    }
+
+    #testimonials h3 {
+        font-size: 2.75rem;
+    }
+
+    h4 {
+        font-size: 1.9rem;
+    }
+
+    .card-custom {
+        max-width: 500px;
+        font-size: 15px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
 @media (max-width: 768px) {
     p {
         font-size: 1.125rem;
