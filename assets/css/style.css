@@ -90,6 +90,7 @@ p {
 
 #header {
     /*background-image: url(https://i.postimg.cc/Xq98y6Qw/tile-header.webp);*/
+    background-image: url(https://i.postimg.cc/zGpCDRhS/dark-period-hero.png);
     background-color: var(--dark-red);
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,12 +111,12 @@ p {
 
 #header h1 {
     font-family: var(--primary-font);
-    font-size: 80px;
+    font-size: 6.25rem;
 }
 
 #header h2 {
     font-family: var(--secondary-font);
-    font-size: 35px;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
@@ -125,7 +126,7 @@ p {
 
 #menstrual-equity h3 {
     color: var(--navy);
-    font-size: 60px;
+    /*font-size: 60px;*/
     text-align: center;
     padding-bottom: 50px;
     text-transform: lowercase;
@@ -148,7 +149,7 @@ p {
 
 #impact-employees h3 {
     color: var(--navy);
-    font-size: 60px;
+    /*font-size: 60px;*/
     text-align: center;
     padding-bottom: 50px;
     text-transform: lowercase;
@@ -169,7 +170,7 @@ p {
 
 #employer-tips h3 {
     color: var(--beige);
-    font-size: 60px;
+    /*font-size: 60px;*/
     text-align: center;
     padding-top: 20px;
     text-transform: lowercase;
@@ -177,7 +178,7 @@ p {
 
 #employee-tips h3 {
     color: var(--beige);
-    font-size: 60px;
+    /*font-size: 60px;*/
     text-align: center;
     padding-top: 20px;
     text-transform: lowercase;
@@ -302,23 +303,23 @@ p {
     }
 
     #header {
-        height: 400px;
+        height: 500px;
     }
 
     #header h1 {
-        font-size: 60px;
+        font-size: 6.25rem;
     }
 
     #header h2 {
-        font-size: 30px;
+        font-size: 2.2rem;
     }
 
     h3 {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
     h4 {
-        font-size: 35px;
+        font-size: 2.2rem;
     }
 
     .card-custom {
@@ -343,19 +344,19 @@ p {
     }
 
     #header h1 {
-        font-size: 60px;
+        font-size: 4rem;
     }
 
     #header h2 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     h3 {
-        font-size: 50px;
+        font-size: 2.75rem;
     }
 
     h4 {
-        font-size: 35px;
+        font-size: 1.9rem;
     }
 
     .card-custom {
