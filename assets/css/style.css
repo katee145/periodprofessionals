@@ -29,9 +29,9 @@ h3 {
     font-family: var(--primary-font);
 }
 
-body {
+/* body {
     background-color: var(--dark-red);
-}
+} */
 
 .navbar-custom {
     background-color: var(--beige);
@@ -44,6 +44,10 @@ body {
 .nav-item > .active {
     color: var(--dark-red);
 }
+
+/* nav {
+    width: 103%;
+} */
 
 /*navbar {
     color: var(--dark-red);
@@ -79,7 +83,18 @@ body {
     background-size: cover;
     height: 500px;
     color: var(--beige);
+    width: 100%;
+    margin: 0;
 }
+
+/* #header {
+    overflow: hidden;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+} */
 
 #header h1 {
     font-family: var(--primary-font);
@@ -164,7 +179,7 @@ body {
     margin: 15px;
 }
 
-.card-custon, h5 {
+.card-custom, h5 {
     font-family: var(--primary-font);
     font-size: 25px;
     color: var(--navy);
@@ -254,4 +269,105 @@ body {
     font-size: 160%;
     padding: 5%;
     color: var(--beige);
+}
+
+@media (max-width: 1200px) {
+    #header {
+        height: 400px;
+    }
+    #header h1 {
+        font-size: 60px;
+    }
+    #header h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    h4 {
+        font-size: 35px;
+    }
+    .card-custom {
+        max-width: 500px;
+        font-size: 15px;
+    }
+    img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        height: 300px;
+    }
+    #header h1 {
+        font-size: 2.5rem;
+    }
+    #header h2 {
+        font-size: 1.6rem;
+    }
+    #menstrual-equity h3 {
+        font-size: 2.5rem;
+    }
+
+    #impact-employees h3 {
+        font-size: 2.5rem;
+    }
+
+    #employer-tips h3 {
+        font-size: 2.5rem;
+    }
+
+    #employer-tips h3 {
+        font-size: 2.5rem;
+    }
+    #contact h4 {
+        font-size: 1.7rem;
+    }
+    .card-custom {
+        max-width: 400px;
+        font-size: 14px;
+        padding: 15px;
+    }
+    img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        height: 200px;
+    }
+    #header h1 {
+        font-size: 1.875rem;
+    }
+    #header h2 {
+        font-size: 1.25rem;
+    }
+    #menstrual-equity h3 {
+        font-size: 1.875rem;
+    }
+
+    #impact-employees h3 {
+        font-size: 1.875rem;
+    }
+
+    #employer-tips h3 {
+        font-size: 1.875rem;
+    }
+
+    #employee-tips h3 {
+        font-size: 1.875rem;
+    }
+    #contact h4 {
+        font-size: 1.3rem;
+    }
+    .card-custom {
+        max-width: 300px;
+        font-size: 13px;
+        padding: 10px;
+    }
+    img {
+        max-width: 60%;
+    }
 }
