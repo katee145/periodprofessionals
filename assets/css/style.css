@@ -1,3 +1,4 @@
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -214,14 +215,14 @@ p {
 .btn-custom {
     color: var(--navy);
     background-color: var(--light-blue);
-    border-color: var(--light-blue);
     font-family: var(--secondary-font);
+    border: none;
 }
 
 .btn-custom:hover {
     color: var(--beige);
     background-color: var(--navy);
-    border-color: var(--navy);
+    border: none;
 }
 
 #testimonials {
@@ -268,13 +269,12 @@ p {
 .btn-custom-2:hover {
     color: var(--beige);
     background-color: var(--navy);
-    border-color: var(--navy);
+
 }
 
 #testimonial-image {
     max-width: 50px;
     border-radius: 50px;
-    width: ;
 }
 
 
@@ -282,8 +282,12 @@ p {
 #social-media {
     text-align: center;
     padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     list-style-type: none;
     background-color: var(--navy);
     margin-bottom: 0;
