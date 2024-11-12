@@ -193,20 +193,21 @@ p {
     margin: 15px;
 }
 
-.card-custom,
-h5 {
+.card-custom h5 {
     font-family: var(--primary-font);
-    font-size: 25px;
+    font-size: 30px;
     color: var(--navy);
     padding-bottom: 5px;
+    text-transform: lowercase;
+    text-align: center;
 }
 
-.card-custom,
-p {
+.card-custom p {
     font-family: var(--secondary-font);
-    font-size: 15px;
+    font-size: 18px;
     color: var(--navy);
     text-align: left;
+    text-transform: none;
 }
 
 .btn-custom {
@@ -272,7 +273,7 @@ p {
 #testimonial-image {
     max-width: 50px;
     border-radius: 50px;
-    width: auto;
+    width: ;
 }
 
 
