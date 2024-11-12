@@ -4,7 +4,7 @@
 
 Period Professionals is the result of my first Individual Project at the Code Institute's Full Stack Bootcamp. The project gives the user a basic understanding of menstrual equity in the workplace, through the lens of diversity and inclusion as outlined in the project's brief. Period Professionals is a glimpse into everything I have learnt over the first five weeks of the Bootcamp using HTML/CSS/Bootstrap, combined with my love for bold branding and bold ideas.
 
-<a href="https:///" target="_blank">Click here to view the live project.</a>
+<a href="https://katee145.github.io/periodprofessionals/" target="_blank">View the live project.</a>
 
 ## UX Design
 
@@ -36,4 +36,4 @@ elements and responive design
 
 
 
-<a href="https:///" target="_blank">Click here to view the live project.</a>
+<a href="https://katee145.github.io/periodprofessionals/" target="_blank">View the live project.</a>
