@@ -5,11 +5,16 @@
 :root {
     --primary-font: "Abril Fatface", sans-serif;
     --secondary-font: "Poppins", sans-serif;
-    --dark-red: #c1121f; /*dark red*/
-    --beige: #fff6e7; /*light beige*/
-    --navy: #003049; /*navy*/
-    --light-blue: #7bb7e0; /*light blue*/
-    --peach: #fad4ba; /*peach*/
+    --dark-red: #c1121f;
+    /*dark red*/
+    --beige: #fff6e7;
+    /*light beige*/
+    --navy: #003049;
+    /*navy*/
+    --light-blue: #7bb7e0;
+    /*light blue*/
+    --peach: #fad4ba;
+    /*peach*/
 }
 
 /* General styles */
@@ -48,7 +53,7 @@ p {
     color: var(--dark-red);
 }
 
-.nav-item > .active {
+.nav-item>.active {
     color: var(--dark-red);
 }
 
@@ -125,6 +130,7 @@ p {
     padding-bottom: 50px;
     text-transform: lowercase;
 }
+
 /* #menstrual-equity p {
     color: var(--navy);
     font-size: 25px;
@@ -147,6 +153,7 @@ p {
     padding-bottom: 50px;
     text-transform: lowercase;
 }
+
 /* #impact-employees p {
     color: var(--navy);
     font-size: 25px;
@@ -186,14 +193,16 @@ p {
     margin: 15px;
 }
 
-.card-custom, h5 {
+.card-custom,
+h5 {
     font-family: var(--primary-font);
     font-size: 25px;
     color: var(--navy);
     padding-bottom: 5px;
 }
 
-.card-custon, p {
+.card-custon,
+p {
     font-family: var(--secondary-font);
     font-size: 15px;
     color: var(--navy);
@@ -282,26 +291,32 @@ p {
     p {
         font-size: 1.25rem;
     }
-    
+
     #header {
         height: 400px;
     }
+
     #header h1 {
         font-size: 60px;
     }
+
     #header h2 {
         font-size: 30px;
     }
+
     h3 {
         font-size: 50px;
     }
+
     h4 {
         font-size: 35px;
     }
+
     .card-custom {
         max-width: 500px;
         font-size: 15px;
     }
+
     img {
         max-width: 80%;
     }
@@ -311,16 +326,19 @@ p {
     p {
         font-size: 1.125rem;
     }
-    
+
     #header {
         height: 300px;
     }
+
     #header h1 {
         font-size: 2.5rem;
     }
+
     #header h2 {
         font-size: 1.6rem;
     }
+
     #menstrual-equity h3 {
         font-size: 2.5rem;
     }
@@ -336,57 +354,66 @@ p {
     #employer-tips h3 {
         font-size: 2.5rem;
     }
+
     #contact h4 {
         font-size: 1.7rem;
     }
+
     .card-custom {
         max-width: 400px;
         font-size: 14px;
         padding: 15px;
     }
+
     img {
         max-width: 70%;
     }
 }
 
 @media (max-width: 480px) {
-    
+
     p {
         font-size: 1rem;
     }
-    
+
     #header {
         height: 200px;
     }
+
     #header h1 {
         font-size: 1.875rem;
     }
+
     #header h2 {
         font-size: 1.25rem;
     }
+
     #menstrual-equity h3 {
-        font-size: 1.875rem;
+        font-size: 1.675rem;
     }
 
     #impact-employees h3 {
-        font-size: 1.875rem;
+        font-size: 1.675rem;
     }
 
     #employer-tips h3 {
-        font-size: 1.875rem;
+        font-size: 1.675rem;
     }
 
     #employee-tips h3 {
-        font-size: 1.875rem;
+        font-size: 1.675rem;
     }
+
     #contact h4 {
         font-size: 1.3rem;
     }
+
     .card-custom {
         max-width: 300px;
         font-size: 13px;
         padding: 10px;
     }
+
     img {
         max-width: 60%;
     }
