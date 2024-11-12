@@ -79,6 +79,7 @@ p {
     color: var(--beige);
     width: 100%;
     margin: 0;
+    margin-top: 56px;
 }
 
 /* #header {
@@ -451,6 +452,26 @@ p {
     img {
         max-width: 70%;
     }
+
+    #menstrual-equity p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #menstrual-equity img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -503,5 +524,25 @@ p {
 
     img {
         max-width: 60%;
+    }
+
+    #menstrual-equity p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #menstrual-equity img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #impact-employees img {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
