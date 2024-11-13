@@ -1,5 +1,7 @@
 # Period Professionals
 
+[insert header image]
+
 ## Introduction 
 
 Period Professionals is the result of my first Individual Project at the Code Institute's Full Stack Bootcamp. The project gives the user a basic understanding of menstrual equity in the workplace, through the lens of diversity and inclusion as outlined in the project's brief. Period Professionals is a glimpse into everything I have learnt over the first five weeks of the Bootcamp using HTML/CSS/Bootstrap, combined with my love for bold branding and bold ideas.
@@ -10,6 +12,8 @@ Period Professionals is the result of my first Individual Project at the Code In
 
 Site Owner’s Goal:
 The site owner aims to create a visually appealing, easy-to-navigate webpage that introduces diversity and inclusion concepts and offers basic guidance on how to implement these practices. The focus is on clear communication through effective use of HTML and CSS, utilising Bootstrap for layout and design.
+
+[computer/phone image]
 
 ### User Stories
 
@@ -22,18 +26,76 @@ The site owner aims to create a visually appealing, easy-to-navigate webpage tha
 * As a potential supporter, I want to read testimonials so that I can see the impact of menstrual equity practices in the workplace.
 
 ### Wireframes
-screenshots
+[screenshots]
 
 ### Branding
-colours, accessibility and fonts
+[canva image]
+#### Fonts
+
+#### Colour palette
+[image]
+
+#### Imagery
+
+### Responsiveness
+[am i responsive]
 
 ## Features
-elements and responive design
+intro
+
+### Existing Features
+####Navigation bar
+*
+[screenshot]
+
+#### Hero image
+*
+[screenshot]
+
+#### Basic information
+*
+[screenshot]
+
+#### Tips
+*
+[screenshot]
+
+#### Testimonials
+*
+[screenshot]
+
+#### Contact
+*
+[screenshot]
+
+#### Footer
+*
+[screenshot]
+
+### Features to Implement
+outro
 
 ## Testing
 
-## Credits
+intro
 
+### Validator Testing
+*
+
+### Lighthouse
+*
+
+### Unfixed Bugs
+*Navbar
+
+## Deployment
+
+## Credits
+### Content
+*
+
+### Media
+*
 
 
 <a href="https://katee145.github.io/periodprofessionals/" target="_blank">View the live project.</a>
