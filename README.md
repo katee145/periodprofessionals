@@ -1,6 +1,7 @@
 # Period Professionals
 
 [insert header image]
+![Period Professionals header](assets/images/readme/period-professionals-header.png)
 
 ## Introduction 
 
