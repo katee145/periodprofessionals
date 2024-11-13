@@ -1,6 +1,4 @@
 # Period Professionals
-
-[insert header image]
 ![Period Professionals header](assets/images/readme/period-professionals-header.png)
 
 ## Introduction 
@@ -27,19 +25,22 @@ The site owner aims to create a visually appealing, easy-to-navigate webpage tha
 * As a potential supporter, I want to read testimonials so that I can see the impact of menstrual equity practices in the workplace.
 
 ### Wireframes
-[screenshots]
+![Wireframe of mobile view](assets/images/readme/mobile-wireframes.png)
+![Wireframe of desktop view](assets/images/readme/desktop-wireframes.png)
 
 ### Branding
-[canva image]
+![Branding slide for period professionals](assets/images/readme/branding-slide.png)
+
 #### Fonts
 
 #### Colour palette
-[image]
+![Colour palette](assets/images/readme/colour-palette.png)
 
 #### Imagery
+![Tips icons](assets/images/readme/tips-icons.png)
 
 ### Responsiveness
-[am i responsive]
+![Website on multiple device sizes](assets/images/readme/responsive-image.png)
 
 ## Features
 intro
@@ -47,31 +48,31 @@ intro
 ### Existing Features
 ####Navigation bar
 *
-[screenshot]
+![Navigation bar](assets/images/readme/nav-feature.png)
 
 #### Hero image
 *
-[screenshot]
+![Hero image](assets/images/readme/header-feature.png)
 
 #### Basic information
 *
-[screenshot]
+![Information section](assets/images/readme/info-feature.png)
 
 #### Tips
 *
-[screenshot]
+![Tips section](assets/images/readme/tips-feature.png)
 
 #### Testimonials
 *
-[screenshot]
+![Testimonials section](assets/images/readme/testimonial-feature.png)
 
 #### Contact
 *
-[screenshot]
+![Contact section](assets/images/readme/contact-feature.png)
 
 #### Footer
 *
-[screenshot]
+![Footer section](assets/images/readme/footer-feature.png)
 
 ### Features to Implement
 outro
@@ -82,9 +83,12 @@ intro
 
 ### Validator Testing
 *
+![HTML testing](assets/images/readme/html-validation.png)
+![CSS testing](assets/images/readme/css-validation.png)
 
 ### Lighthouse
 *
+![Lighthouse testing](assets/images/readme/lighthouse-testing.png)
 
 ### Unfixed Bugs
 *Navbar
